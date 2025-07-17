@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
       main: "images/pepper-main.png",
       icon: "images/pepper-icon.png",
       leaf: "images/leaf.png",
-      bg: "#e8e4df"
+      bg: "#dccfca "
     },
     {
       name: "Aromax Black Pepper Powder",
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
       main: "images/pepperpowder-main.png",
       icon: "images/pepperpowder-icon.png",
       leaf: "images/leaf.png",
-      bg: "#e8e4df"
+      bg: "#d4c7b7 "
     }
   ];
 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
   let lockSliderAtEnd = false;
 
   // --- AUTO SLIDE SETTINGS ---
-  let autoSlideEnabled = true; // Set to false to turn off auto slide
+  let autoSlideEnabled = false; // Set to false to turn off auto slide
   const autoSlideInterval = 7000; // 7 seconds
   let autoSlideTimer = null;
 
